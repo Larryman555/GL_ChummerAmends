@@ -2179,7 +2179,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     <quality>
       <name>Consummate Professional</name>
       <bonus>
-        <streetcredmultiplier>25</streetcredmultiplier>
+        <streetcredmultiplier>35</streetcredmultiplier>
       </bonus>
     </quality>
 
@@ -2344,14 +2344,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <page>182</page>
     </quality>
 
-    <!--Chrome Company quality for various things. Currently changes Street Cred-->
+    <!--Greywing Logistics quality for various things. Currently changes Street Cred-->
     <quality>
       <id>ac531ef1-b75a-47f3-91ef-8e40e55dbcdd</id>
-      <name>Chrome Company</name>
+      <name>Greywing Logistics</name>
       <karma>0</karma>
       <category>Positive</category>
       <bonus>
-        <streetcredmultiplier>15</streetcredmultiplier>
+        <streetcredmultiplier>25</streetcredmultiplier>
       </bonus>
       <source>MPR</source>
       <page>1</page>
@@ -3957,6 +3957,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <category>Negative</category>
       <source>MPR</source>
       <page>0</page>
+	  <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
     </quality>
   </qualities>
   <qualities amendoperation="append">

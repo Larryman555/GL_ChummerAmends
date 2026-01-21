@@ -628,14 +628,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </forbidden>
     </quality>
     <quality>
-      <name>Incomplete Deprogramming</name>
-      <forbidden amendoperation="append">
-        <oneof>
-          <metatype>AI</metatype>
-        </oneof>
-      </forbidden>
-    </quality>
-    <quality>
       <name>Infirm</name>
       <forbidden amendoperation="append">
         <oneof>
@@ -970,7 +962,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <quality>Blighted (12 Months)</quality>
           <quality>Blind</quality>
           <quality>Deaf</quality>
-          <quality>Incomplete Deprogramming</quality>
           <quality>Low Pain Tolerance</quality>
           <quality>Paraplegic</quality>
           <quality>Phobia (Common, Moderate)</quality>
@@ -994,6 +985,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
 	
 	<quality>
       <name>First Impression</name>
+      <hide />
+    </quality>
+	
+	<quality>
+      <name>Incomplete Deprogramming</name>
       <hide />
     </quality>
 
